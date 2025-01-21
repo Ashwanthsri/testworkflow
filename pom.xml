@@ -30,6 +30,7 @@
        <snapshotRepository>
            <id>nexus-snapshots</id>
            <url>http://15.207.72.154:8081/repository/maven-snapshots/</url>
+           <username>${MY_CUSTOM_SECRET}</username>
        </snapshotRepository>
    </distributionManagement>
          
