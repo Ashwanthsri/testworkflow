@@ -16,5 +16,6 @@ jobs:
       name: "Build JAR/WAR files"
       environment: "development"
     secrets:
-      mySecret: ${{ secrets.MY_CUSTOM_SECRET }}
+      NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
+      NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
   
