@@ -15,7 +15,7 @@ jobs:
     with:
       name: "Build JAR/WAR files"
       environment: "development"
-    env:
+    secrets:
       NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
       NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
   
