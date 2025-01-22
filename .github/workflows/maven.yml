@@ -1,5 +1,5 @@
 
-name: Call Reusable Workflow
+name: Call Reusable workflow
 
 on:
   push:
