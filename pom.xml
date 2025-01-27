@@ -45,7 +45,7 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.10.0</version>
-            <scope>test</scope>
+            <scope>system</scope>
             <systemPath>${project.basedir}/libs/junit-jupiter-5.10.0.jar</systemPath>
         </dependency>
     </dependencies>
