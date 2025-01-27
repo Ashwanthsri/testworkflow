@@ -45,9 +45,16 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.10.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/junit-jupiter-5.10.0.jar</systemPath>
+            <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.test</groupId>
+            <artifactId>test-app</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>test</scope>
+            <systemPath>${project.basedir}/libs/test-app-1.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+             
     </dependencies>
 
     <build>
